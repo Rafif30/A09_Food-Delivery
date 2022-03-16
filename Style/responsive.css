@@ -38,6 +38,19 @@
     height: 100%;
   }
 
+  .menu-content {
+    padding: 18px 24px 24px 24px;
+  }
+
+  .menu-title {
+    font-size: 20px;
+  }
+
+  .menu-attributes,
+  .details {
+    font-size: 16px;
+  }
+
   .grid-testimonials {
     grid-template-columns: 1fr;
   }
@@ -88,7 +101,7 @@
   .right p {
     text-align: center;
   }
-  .btn {
+  .btn-about {
     display: block;
     margin: auto;
     width: fit-content;
@@ -139,6 +152,16 @@
 
   .text-box h1 {
     font-size: 18px;
+  }
+
+  .menus {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    justify-items: center;
+  }
+
+  .menu {
+    width: 70%;
   }
 
   /* testimonials */
