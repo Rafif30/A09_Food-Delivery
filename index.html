@@ -5,76 +5,256 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" href="img/logo/logo (2).png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./Style/style.css" />
     <link rel="stylesheet" href="./Style/responsive.css" />
 
     <title>Food Delivery - A09 project</title>
   </head>
   <body>
-    
     <!-- HEADER-Fajar-->
-     <nav>
-        <div class="container">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa fa-bars"></i>
-            </label>
-            <div class="header-left">
-                <img src="logo.png" alt="logo" class="logo">
-            </div>
-            <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Testimonial</a></li>
-            </ul>
-        </div>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <div class="header-left">
+        <img src="./img/logo/logo.png" alt="logo" class="logo" />
+      </div>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#testimonials">Testimonial</a></li>
+      </ul>
     </nav>
-
-    <!-- TOP WRAPPER -->
-
-    <!-- ABOUT -->
-      <section>
+    <main>
+      <!-- TOP WRAPPER-Salsa -->
+      <section class="top-wrapper">
         <div class="container">
-          <div class="grid">
+          <div class="grid-top">
+            <div class="text-box">
+              <h1>A meal delivered to your door, every single day</h1>
+              <p>
+                By Fittummy, your delicious meals will nourish your body to be
+                healthier everyday.<br />
+                Our smart AI will assist you to tailor your personal taste and
+                nutritional needs.
+              </p>
+              <a href="#about" class="btn-next">Learn more</a>
+            </div>
+            <div class="image image-top">
+              <img src="img//top/2-cajun-pizza.jpg" />
+            </div>
+          </div>
+          <div class="image-box">
+            <div class="image">
+              <img src="img/top/1-sushi-fried-rice.jpg" />
+            </div>
+            <div class="image">
+              <img src="img/top/3-makan-bersama.jpg" />
+            </div>
+            <div class="image">
+              <img src="img/top//4-set-bowl.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT-Ifan -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="grid-about">
             <div class="left">
-              <img src="https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+              <img
+                src="https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt=""
+              />
             </div>
             <div class="right">
-              <h4>About Us</h4>
-              <h2>Who we are?</h2>
+              <span class="subheading">About Us</span>
+              <h2 class="heading-secondary">Who we are?</h2>
               <p>
-                We are a technology company first, but with a major focus on consumer well-being through a healthy diet. Most people are very busy with their jobs, family and friends, and other important activities, which doesn't leave much
-                time for cooking. This might lead to a poor diet and lasting health consequences.
+                We are a technology company first, but with a major focus on
+                consumer well-being through a healthy diet. Most people are very
+                busy with their jobs, family and friends, and other important
+                activities, which doesn't leave much time for cooking. This
+                might lead to a poor diet and lasting health consequences.
               </p>
               <a href="#" class="btn">Read more</a>
             </div>
           </div>
         </div>
       </section>
-    <!-- MENU -->
+      <!-- MENU-Ihsan -->
 
-    <!-- TESTIMONIALS -->
+      <!-- TESTIMONIALS-Rafif -->
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="grid-testimonials">
+            <div class="testimonial-description">
+              <span class="subheading">Testimonials</span>
+              <h2 class="heading-secondary">
+                Try it once, and you want one more time
+              </h2>
+
+              <div class="testimonial">
+                <figure class="testimonial-costumer">
+                  <img
+                    class="testimonial-img"
+                    src="img/customer/customer-1.jpg"
+                    alt="Dave"
+                  />
+                  <blockquote class="testimonial-text">
+                    Inexpensive, healthy and great-tasting meals, without even
+                    having to order manually!
+                  </blockquote>
+                  <p class="testimonial-name">&mdash; Angelina Jolie</p>
+                </figure>
+
+                <figure class="testimonial-costumer">
+                  <img
+                    class="testimonial-img"
+                    src="img/customer/customer-2.jpg"
+                    alt="Dave"
+                  />
+                  <blockquote class="testimonial-text">
+                    I got Fittummy for the whole family, and it frees up so much
+                    time!
+                  </blockquote>
+                  <p class="testimonial-name">&mdash; Jack Josh</p>
+                </figure>
+
+                <figure class="testimonial-costumer">
+                  <img
+                    class="testimonial-img"
+                    src="img/customer/customer-3.jpg"
+                    alt="Dave"
+                  />
+                  <blockquote class="testimonial-text">
+                    Fittummy is a life saver! I just started a company, so
+                    there's no time for cooking.
+                  </blockquote>
+                  <p class="testimonial-name">&mdash; Anna Smith</p>
+                </figure>
+
+                <figure class="testimonial-costumer">
+                  <img
+                    class="testimonial-img"
+                    src="img/customer/customer-4.jpg"
+                    alt="Dave"
+                  />
+                  <blockquote class="testimonial-text">
+                    The AI algorithm is crazy good, it chooses the right meals
+                    for me every time.
+                  </blockquote>
+                  <p class="testimonial-name">&mdash; Steven Muller</p>
+                </figure>
+              </div>
+            </div>
+
+            <div class="gallery">
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-1.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-2.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-3.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-4.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-5.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-6.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-7.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-8.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-9.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-10.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-11.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="img/gallery/gallery-12.jpg"
+                  alt="Photo of beatifully arranged food"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- FOOTER-Fajar -->
     <footer>
-        <div class="container">
-            <img src="logo.png" alt="Logo">
-            <ul>
-                <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
-                <li><a href="https://instagram.com" class="fa fa-instagram"></a></li>
-                <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
-            </ul>
-            <p>Copyright © 2022 by C09, Inc. All rights reserved</p>
-        </div>
+      <div class="container">
+        <img src="img/logo/logo.png" alt="Logo" />
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          </li>
+          <li><a href="https://instagram.com" class="fa fa-instagram"></a></li>
+          <li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+        </ul>
+        <p>Copyright © 2022 by C09, Inc. All rights reserved</p>
+      </div>
     </footer>
-    
   </body>
 </html>
