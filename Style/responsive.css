@@ -1,5 +1,9 @@
 @media (max-width: 1000px) {
+  .heading-secondary {
+    font-size: 28px;
+  }
   /* HEADER-Fajar */
+
   nav ul {
     margin-top: 23px;
   }
@@ -9,18 +13,78 @@
     text-transform: uppercase;
     padding: 2px 4px;
   }
+
+  /* Top wrapper */
+
+  .text-box {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .text-box h1 {
+    font-size: 36px;
+  }
+
+  .text-box a {
+    margin-top: 125px;
+  }
+
+  .text-box p {
+    font-size: 20px;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .grid {
+  nav ul li a:link,
+  nav ul li a:visited {
+    font-size: 14px;
+  }
+  .logo {
+    width: 100px;
+    height: 30px;
+  }
+
+  .text-box h1 {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: start;
+  }
+
+  .text-box p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: start;
+  }
+
+  .text-box a:link,
+  .text-box a:visited {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 65px;
+  }
+
+  .image-top img {
+    width: 100%;
+    height: 50%;
+  }
+  .grid-about {
     grid-template-columns: 1fr;
   }
-  .right h4,
-  h2 {
-    margin: auto;
-    width: fit-content;
-    margin-bottom: 10px;
-  }
+
+  .right .subheading,
+  .right .heading-secondary,
   .right p {
     text-align: center;
   }
@@ -66,6 +130,21 @@
 
   #check:checked ~ ul {
     left: 0;
+  }
+
+  /* Top wrapper */
+  .text-box h1 {
+    font-size: 24px;
+  }
+
+  .text-box h1 {
+    font-size: 18px;
+  }
+
+  /* testimonials */
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
   }
 
   /* Footer-Fajar */
